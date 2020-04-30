@@ -1,0 +1,695 @@
+
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header{
+    text-align: right;
+    background-color: #316DC3;
+    height: 50px;
+    float: left;
+    width: 25%;
+    display: inline-block;
+
+}
+.header-para{
+    text-align: center;
+    background-color: #316DC3;
+    height: 50px;
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+.header-tag{
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header-btn{
+    text-align: left;
+    background-color: #316DC3;
+    height: 50px;
+    float: left;
+    width: 25%;
+}
+.head-btn{
+    margin: 10px;
+    padding: 5px;
+    color: green;
+    background-color: mintcream;
+    border-radius: 5px;
+    border: 0px;
+}
+.header-icon{
+    text-align: left;
+    width: 20px;
+    padding: 15px;
+}
+
+/* <!--- Header Completed here ---!> */
+
+.main-navigation{
+    width: 100%;
+    background-color: ghostwhite;
+    position: fixed;
+}
+.logo-div{
+    width: 100%;
+    float: left;
+    background-color: #F7F8FA;
+    height: 70px;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    
+}
+.logo-div img{
+    width: 30%;
+    float: left;
+    
+}
+.logo-div .saylani-logo{
+    width: 10%;
+    position: relative;
+    left: 280px;
+    top: 8px;
+}
+
+.nav-bar{
+    float: right;
+    width: 60%;
+    margin: -5px;
+}
+
+
+
+li{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px; 
+    display: inline-block;
+    border-radius: 40px;
+    margin: 10px;
+    
+}
+.home{
+    background-color: #316DC3;
+}
+li:hover{
+    background-color: #316DC3;
+}
+
+
+/* Navigation bar completed */
+
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+.saylani-pic{
+    width: 100%;
+    height:540px;
+    
+
+}
+.saylani-pic1{
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    right: 0px;
+    
+}
+.saylani-pic1:hover{
+    opacity: 0;
+    transition: slide 4s ease;
+}    
+     
+    /* Cover-picture container completed */
+
+.headline-container{
+    background-color: white;
+    width: 100%;
+}
+.headline{
+
+    background-color: #316DC3;
+    display:table;
+    width: 70%;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 280px;
+}
+
+    .headline p {
+        width: 100%;
+        color: floralwhite;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        animation: smooth 10s linear infinite;
+        display: table;
+
+    }
+    .headline p span{
+        color: greenyellow;
+    }
+    @keyframes smooth {
+       
+        25% {margin-left: 180px;}
+        50% {margin-left: 60px;}
+        75% {margin-left: 60px;}
+        100% {margin-left:180px;}        
+      }
+
+
+      /* <!-- Here we start the introduction of website --> */
+
+.introduction-container{
+    background-color: #F7F8FA;
+    width: 100%;
+    height: 608px;
+    display: block;
+    text-align: center;
+}
+
+.introduction{
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    color: #316DC3;
+}
+
+.blue{
+    color: green;
+}
+
+.introduction p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: grey;
+    font-size: 15px;
+}
+
+/* <!-- introduction has been completed --> */
+
+
+.count-container{
+    background-color: #316DC3 ;
+    width: 100%;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+.daily-dastrakhan{
+    display: inline;
+    width: 25%;
+    margin: 30px;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+}
+.daily-dastrakhan img{
+    width: 9%;
+}
+.daily-dastrakhan h1{
+    color: white;
+    font-size: 60px;
+}
+.daily-dastrakhan h5{
+    color: white;
+    font-size: 20px;
+}
+h5 span{
+    color: lightgreen;
+}
+
+.family-adoption{
+    display: inline;
+    width: 20%;
+    margin: 30px;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+}
+.family-adoption img{
+    width: 10%;
+}
+.family-adoption h1{
+    color: white;
+    font-size: 60px
+}
+.family-adoption h5{
+    color: white;
+    font-size: 20px;
+}
+
+
+.medical{
+    display: inline;
+    width: 20%;
+    margin: 30px;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+}
+
+.medical img{
+    width: 10%;
+}
+
+.medical h1{
+    color: white;
+    font-size: 60px
+}
+
+.medical h5{
+    color: white;
+    font-size: 20px;
+}
+
+
+.education{
+    display: inline;
+    width: 20%;
+    margin: 30px;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+}
+
+.education img{
+    width: 10%;
+}
+
+.education h1{
+    color: white;
+    font-size: 60px
+}
+
+.education h5{
+    color: white;
+    font-size: 20px;
+}
+
+    /* Here we completed mileston of saylani dastrakhan */
+
+    .product-container{
+        background-color: #F7F8FA;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    .product{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        color: rgb(31, 88, 187);
+    }
+    .product img{
+        width: 40px;
+    }
+    
+    .blue{
+        color: green;
+    }
+
+    .products{
+        background-color: lightgreen;
+        width: 70%;
+        display: contents;
+        margin: 30px;
+        padding: 20px;
+    }
+    .online-sadqah{
+        width: 20%;
+        display: inline-block;
+        margin: 20px;
+        padding: 10px;
+        background-color: white;
+        box-shadow: gray 1px 5px 5px 5px;
+        border: 1px whitesmoke solid;
+    }
+    .online-sadqah h3{
+        color: rgb(31, 88, 187);
+    }
+    
+    .welfare{
+        display: inline-block;
+        width: 20%;
+        margin: 20px;
+        padding: 10px;
+        background-color: white;
+        box-shadow: gray 1px 5px 5px 5px;
+        border: 1px whitesmoke solid;
+    }
+    .welfare h3{
+        color: rgb(31, 88, 187);
+
+    }
+    .product-medical{
+        width: 20%;
+        display: inline-block;
+        margin: 20px;
+        padding: 10px;
+        background-color: white;
+        box-shadow: gray 1px 5px 5px 5px;
+        border: 1px whitesmoke solid;
+    }
+    .product-medical h3{
+        color: rgb(31, 88, 187);
+
+    }
+    .dastarkhan{
+        width: 20%;
+        display: inline-block;
+        margin: 20px;
+        padding: 10px;
+        background-color: white;
+        box-shadow: gray 1px 5px 5px 5px;
+        border: 1px whitesmoke solid;
+    }
+    .dastarkhan h3{
+        color: rgb(31, 88, 187);
+
+    }
+    .ro-plant{
+        width: 20%;
+        display: inline-block;
+        margin: 20px;
+        padding: 10px;
+        background-color: white;
+        box-shadow: gray 1px 5px 5px 5px;
+        border: 1px whitesmoke solid;
+    }
+    .ro-plant h3{
+        color: rgb(31, 88, 187);
+
+    }
+    .product-edu{
+        width: 20%;
+        display: inline-block;
+        margin: 20px;
+        padding: 10px;
+        background-color: white;
+        border: 1px whitesmoke solid;
+        box-shadow: gray 1px 5px 5px 5px;
+    }
+    
+.product-edu h3{
+    color: rgb(31, 88, 187);
+
+}
+
+
+/* <!-- Here we completed product and services Details of saylani welfare foundation --> */
+
+
+.mission-container{
+    width: 100%;
+    float: left;
+    background-color: white;
+    min-height: 400px;
+    margin-top: 70px;
+
+}
+
+.missions{
+    margin: 10px;
+    background-color: white;
+    width: 60%;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+.missions h1{
+    margin-right: 170px;
+    color: #316DC3;
+    text-align: center;
+    line-height: 10px;
+}
+.missions span{
+    text-decoration: underline green ;
+}
+
+
+.hepatitis{
+    float: right;
+    width: 40%;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+.hepatitis img{
+    width: 30px;
+    margin-top: 20px;
+}
+.hepatitis h2{
+    display: inline;
+    padding: 20px;
+    color: #316DC3;
+}
+.housing-society{
+    width: 40%;
+    margin: 10px;
+    float: right;
+    display: inline;
+    height: 100px;
+    background-color: whitesmoke;
+}
+.housing-society img{
+    width: 20px;
+    margin-top: 30px;
+}
+.housing-society h2{
+    display: inline;
+    padding: 20px;
+    color: #316DC3;
+}
+.it-literacy{
+    width: 40%;
+    float: right;
+    margin: 10px;
+    display: inline;
+    height: 100px;
+    background-color: whitesmoke;
+}
+.it-literacy img{
+    width: 30px;
+    margin-top: 20px;
+}
+.it-literacy h2{
+    display: inline;
+    padding: 20px;
+    color: #316DC3;
+}
+.tharparkar{
+    width: 40%;
+    float: right;
+    margin: 10px;
+    display: inline;
+    height: 100px;
+    background-color: whitesmoke;
+}
+.tharparkar img{
+    width: 30px;
+    margin-top: 20px;
+}
+.tharparkar h2{
+    display: inline;
+    padding: 20px;
+    color: #316DC3;
+ }
+ .events-container{
+     width: 38%;
+     float: left;
+     background-color: white;
+     position: relative;
+ }
+ 
+ .events-container span{
+     border-bottom: 2px green solid;
+ }
+ .events-container h1{
+     color: #316DC3;
+     border-bottom: 1px lightgray solid;
+     position: relative;
+ }
+
+ .headline-1{
+    display:  inline-block;
+    width: 50%;
+    overflow-y: hidden;
+    height: 200px;
+}
+
+    .headline-1 p {
+        width: 100%;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        animation: slide 20s linear infinite;
+        display: table;
+
+    }
+    .headline-1 p span{
+        color: green;
+    }
+    @keyframes slide {
+       
+        25% {margin-top: -180px;}
+        50% {margin-top: -60px;}
+        75% {margin-top: -60px;}
+        100% {margin-top: -180px;}        
+      }
+
+      .img-gallery-cont{
+        width: 100%;
+        min-width: 100%;
+   
+      }
+      .img-gallery{
+          text-align: center;
+          
+      }
+      .img-gallery h1{
+          color: #316DC3;
+      }
+      .image{
+          width: 100%;
+          text-align: center;
+          min-height: 300px;
+              margin-top: 50px;
+        }
+
+      .image > img{
+          width: 10%;
+      }
+      .image > img:hover{
+          opacity: 0.1;
+          width: 10%;
+          border: 2px gray solid;
+        border
+      }
+
+.footer-container{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(37, 39, 46);
+    color: white;
+    display: inline-block;
+}
+.footer{
+    margin: 40px;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+}
+.footer p {
+    color: #bbb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+.address{
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+.address img{
+    width: 20px;
+    float: left;
+    display: block;
+}
+#global{
+    display: inline;
+    position: relative;
+    bottom: 158px;
+    left: 200px;
+}
+#global-para{
+    display: inline;
+    position: relative;
+    bottom: 158px;
+    left: 10px;
+}
+.useful-links{
+    width: 25%;
+    float: left;
+    margin-left: 20px;
+    
+}
+
+.useful-links span{
+    border-bottom: 2px green solid;
+}
+
+.useful-links p {
+    text-align:left;
+    font-weight: bold;
+    color: white;
+    border-bottom: 1px lightgray solid;
+}
+.social-media{
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+
+}
+.social-media p{
+    text-align: left;
+    font-weight: bold;
+    color: white;
+
+}
+.social-media img{
+    width: 30px;
+    float: left;
+    padding: 5px;
+}
+
+/* here is the foot */
+
+.foot{
+    background-color: #316DC3;
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    display: inline-block;
+    padding: 0px;
+}
+.foot-para{
+    width: 30%;
+    float: left;
+}
+.foot p {
+    color: white;
+    text-align: right;
+    font-size: 11px;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.go-top{
+    width: 70%;
+    float: left;
+}
+.go-top img{
+    width: 40px;
+    opacity: 0.5;
+    float: right;
+    padding-right: 20px;
+    margin: 10px;
+}
+.go-top img:hover{
+    opacity: 1;
+    width: 50px;
+}
